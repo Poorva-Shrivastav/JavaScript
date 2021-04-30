@@ -7,7 +7,7 @@ function quickSort(arr, start, end){
             quickSort(arr, start, pivotIndex-1);
         }
         if(pivotIndex < end){
-            quickSort(arr, pivotIndex,end)
+            quickSort(arr, pivotIndex,end);
         }
 
     }
